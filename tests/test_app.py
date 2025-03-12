@@ -21,4 +21,4 @@ class TestApp:
 
     def test_assignment_q_one(self):
         res = multiply_by_two(18) 
-        assert res != 36
+        assert res == 36
